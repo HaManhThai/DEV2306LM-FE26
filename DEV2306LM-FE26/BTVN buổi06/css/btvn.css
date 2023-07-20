@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.img{
+    width: 200px;
+}
+.nav{
+    display: flex;
+}
+.ul{
+    display: flex;
+}
+.li{
+    padding:14px 14px 14px 14px;
+    position: relative;
+}
+.li1{
+    padding: 14px 14px 14px 300px ;
+    position: relative;
+}
+ul a{
+    text-transform: uppercase;
+}
+.menu-left{
+    padding-left: 150px;
+}
+.justify-between{
+    justify-content:space-around;
+}
+.ul .li:hover::after{
+    content: '';
+    height: 0.25rem;
+    width: 2.5rem;
+    position: absolute;
+    background-color: green;
+    bottom: 0.4rem;
+    left: 0.5rem;
+}
+.ul .li1:hover::after{
+    content: '';
+    height: 0.25rem;
+    width: 2.5rem;
+    position: absolute;
+    background-color: green;
+    bottom: 0.4rem;
+    right: 4.5rem;
+}
+.ul .li4::after{
+    content: '';
+    height: 0.25rem;
+    width: 2.5rem;
+    position: absolute;
+    background-color: green;
+    bottom: 0.4rem;
+    left: 0.5rem;
+}
+.font-size{
+    font-size: 30px;
+}
+.text-center{
+    text-align: center;
+}
+.d-flex{
+    display: flex;
+}
+.w-28{
+    width: 28%;
+}
+.w-100{
+    width: 100%;
+}
+
+
+.padding {
+    padding: 16px;
+}
+.color{
+    color:green;
+}
+.font-weight: {
+    bold;
+}
+.font-size: {
+    x-large;
+}
+.db{
+    margin: 0 auto;
+    display: block;
+    width: 1px;
+    padding: 10px;
+    border: 1px solid green;
+}
+div >.db:hover{
+    background: green;
+}
+.size{
+    width: 200px;
+}
+body{
+    background-image: url('http://acatea.vn/Content/images/images/tin-tuc/background-tintuc.png');
+}
+.padding1{
+    padding: 0 14px;
+}
+
